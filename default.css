@@ -433,6 +433,7 @@
 	#banner
 	{
 		padding-top: 5em;
+
 	}
 
 /*********************************************************************************/
@@ -444,7 +445,7 @@
 	{
 		overflow: auto;
 		padding: 0em 0em 5em 0em;
-		background: #FFF;
+		background: #F3f3f3;
 	}
 
 	#wrapper1
@@ -554,7 +555,7 @@
 	#footer
 	{
 		overflow: hidden;
-		padding: 5em 0em 5em 2em;
+		padding: 5em 0em;
 		background: #E3F0F7;
 		text-align: center;
 	}
@@ -582,7 +583,6 @@
 	{
 		color: rgba(255,255,255,0.4);
 	}
-
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
@@ -802,8 +802,10 @@
 		color: #FFFFFF;
 	}
 
-	#width{
-		overflow:auto;
-}
+	.embed{
+		display: flex;
+  align-items: center;
+  justify-content: center 
+  margin-top:100px;
 	
 	
