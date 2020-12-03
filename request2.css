@@ -288,8 +288,7 @@
 
 	.title
 	{
-		margin-bottom: 3em;\
-		text-align: center;
+		margin-bottom: 3em;
 	}
 	
 	.title h2
@@ -447,29 +446,29 @@
 /* Welcome                                                                       */
 /*********************************************************************************/
 
-	.welcome
+	#welcome
 	{
 		overflow: hidden;
 		width: 1000px;
-		padding: 4em 100px 0em 230px;
+		padding: 4em 100px 0em 100px;
 		text-align: center;
 	}
 	
-.welcome .content
+	#welcome .content
 	{
 		padding: 0em 8em;
 	}
 	
-	.welcome .title 
+	#welcome .title 
 	{
 	}
 	
-	.welcome a,
-	.welcome strong
+	#welcome a,
+	#welcome strong
 	{
 	}
 
-	.hi{
+	#hi{
 		position: relative; bottom: 2.5em;
 	}
 
@@ -515,13 +514,12 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-#footer
+	#footer
 	{
 		overflow: hidden;
 		padding: 5em 0em;
 		background: #E3F0F7;
 		text-align: center;
-		margin-bottom: 0;
 	}
 
 
@@ -552,7 +550,7 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-#copyright
+	#copyright
 	{
 		overflow: hidden;
 		padding: 5em 0em;
@@ -572,6 +570,7 @@
 		text-decoration: none;
 		color: rgba(255,255,255,0.8);
 	}
+
 /*********************************************************************************/
 /* Newsletter                                                                    */
 /*********************************************************************************/
@@ -762,7 +761,7 @@
 		.img{
 		width:350px;
 		height: 250px;
-		position: relative7
+		position: relative;
 		overflow: auto;
 	}
 
@@ -793,43 +792,9 @@
 	#width{
 overflow: initial;
 	}
-
-	.form{
-		text-align: center;
-	}
-
-	.formtext{
-		font-size: 25px;
-		font-weight: bold;
-}
-	.textarea{
-width:30%;
-	}
-
-input[type="text"]{
-		width:40%;
-	}
 	
-input[type="email"]{
-		width:40%;
-	}
-
-
-#select{
-left:26em;
-}
-
+	
 .contactform{
 	width:100%;
-}
-
-
-.formtitle{
-	margin-top: 50px;
-}
-
-
-
-.fbox{
-margin:0;
+	height:1600px;
 }
