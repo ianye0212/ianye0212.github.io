@@ -784,13 +784,40 @@
 		font-size: 1em;
 		color: #FFF;
 }
-#text1{
-	position: relative; bottom: 23px;
+
+	
+	.contenttext1{
+		margin-left:87px;
+		margin-bottom: 10px
+	}
+
+
+	.content{
+		margin-left:10em;
+		margin-top: 5em;
+		
+	}
+
+	.contenttext2{
+margin-left:87px;
+		margin-bottom: 10px
+	}
+
+.content2{
+margin-left:6em;
+margin-top: 5em;
+
+}
+.collection{
+	margin-left: 5em;
 }
 
+.box{
+    float:left;
+    margin:0px 40px;
+    display:inline-block;
 
-	#width{
-overflow: initial;
-	}
-	
-	
+}
+.clear{
+    clear:both;
+}
