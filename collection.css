@@ -821,3 +821,8 @@ margin-top: 5em;
 .clear{
     clear:both;
 }
+
+
+.big{
+	align-content: center;
+}
